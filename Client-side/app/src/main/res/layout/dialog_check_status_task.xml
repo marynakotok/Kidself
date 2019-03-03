@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/doneTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center_horizontal"
+        android:text="@string/stringDoneTask"
+        android:textColor="@color/colorBlack"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:visibility="visible" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/radioStatus"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal">
+
+        <RadioButton
+            android:id="@+id/radioYes"
+            android:layout_width="wrap_content"
+            android:textSize="25dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/colorApproved"
+            android:text="@string/stringYes" />
+
+        <RadioButton
+            android:id="@+id/radioNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBase"
+            android:text="@string/stringNo"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submit"
+        android:text="@string/stringSubmit"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="1"
+        android:layout_margin="25dp"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:background="@drawable/button_child"
+        android:fontFamily="@font/carlisle_regular" />
+
+</LinearLayout>

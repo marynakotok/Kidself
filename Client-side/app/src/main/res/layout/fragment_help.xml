@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu.HelpFragment"
+    android:background="@color/colorWhite">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/KidselfText"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="50dp"
+                android:fontFamily="@font/carlisle_regular"
+                android:text="@string/stringLogoText"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent"
+                android:textSize="50sp"
+                android:textStyle="bold|italic"
+                android:visibility="visible" />
+
+            <View style="@style/Divider"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="40dp" />
+
+            <TextView
+                android:id="@+id/textGetting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/stringGetting"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textColor="@color/colorLink"
+                android:textSize="25sp"
+                android:layout_marginBottom="15dp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textGettingContext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/stringGettingContext"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="15sp"
+                android:layout_margin="25dp"
+                android:layout_marginBottom="15dp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <View style="@style/Divider"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="40dp" />
+
+            <TextView
+                android:id="@+id/textTrouble"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/stringTroubleShooting"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textColor="@color/colorLink"
+                android:textSize="25sp"
+                android:layout_marginBottom="15dp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textTroubleContext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/stringTroubleShootingContext"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="15sp"
+                android:layout_margin="25dp"
+                android:layout_marginBottom="15dp"
+                android:textStyle="bold"
+                android:visibility="visible"/>
+
+            <View style="@style/Divider"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="40dp" />
+
+            <TextView
+                android:id="@+id/textFAQ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/stringFAQ"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textColor="@color/colorLink"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textFAQContext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/stringFAQContext"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="15sp"
+                android:layout_margin="25dp"
+                android:layout_marginBottom="15dp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <View style="@style/Divider"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="40dp" />
+
+            <TextView
+                android:id="@+id/textQuestions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/stringIdeas"
+                android:textAllCaps="true"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="15dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorLink"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textQuestionsContext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/stringIdeasContext"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="15sp"
+                android:layout_margin="25dp"
+                android:layout_marginBottom="15dp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/stringSendIdeas"
+                android:layout_marginBottom="15dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="25sp"
+                android:fontFamily="@font/carlisle_regular"
+                android:background="@drawable/button_cancel"
+                android:padding="10dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

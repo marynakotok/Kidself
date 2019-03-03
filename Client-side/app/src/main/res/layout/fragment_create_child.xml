@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu.parent.CreateChildFragment"
+    android:background="@color/colorWhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/KidselfText"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="50dp"
+            android:fontFamily="@font/carlisle_regular"
+            android:text="@string/stringLogoText"
+            android:textAllCaps="false"
+            android:textColor="@color/colorAccent"
+            android:textSize="50sp"
+            android:textStyle="bold|italic"
+            android:visibility="visible" />
+
+        <View style="@style/Divider"
+            android:layout_marginTop="25dp"
+            android:layout_marginStart="40dp" />
+
+        <TextView
+            android:id="@+id/EnterDetailsChild"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="30dp"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="center_horizontal"
+            android:text="@string/stringEnterChildDetails"
+            android:textColor="@color/colorBlack"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/nameChild"
+            android:hint="@string/stringName"
+            android:background="@drawable/field_parent"
+            android:inputType="text"
+            android:maxLines="1"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginBottom="10dp"
+            android:layout_width="250dp"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:layout_marginStart="70dp"
+            android:maxLength="10"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="@color/colorBlack"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/dateChild"
+            android:hint="@string/stringDB"
+            android:background="@drawable/field_parent"
+            android:layout_width="250dp"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_marginStart="70dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="45dp"
+            android:textColor="@color/colorBlack"
+            android:padding="10dp"/>
+
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/sexChild"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/roboto_regular"
+                android:background="@drawable/spinner"
+                android:textColor="@color/colorBlack"
+                android:spinnerMode="dropdown" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:contentDescription="@string/stringSex"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/spinner_arrow" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
+
+            <Button
+                android:id="@+id/CancelButtonChild"
+                android:text="@string/stringCancel"
+                android:textColor="@color/colorWhite"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:alpha="1"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:layout_marginStart="25dp"
+                android:background="@drawable/button_cancel"
+                android:fontFamily="@font/carlisle_regular" />
+
+            <Button
+                android:id="@+id/SaveButtonChild"
+                android:text="@string/stringSave"
+                android:textColor="@color/colorWhite"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:alpha="1"
+                android:textAllCaps="true"
+                android:textSize="30sp"
+                android:layout_marginStart="25dp"
+                android:background="@drawable/button_child"
+                android:fontFamily="@font/carlisle_regular" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

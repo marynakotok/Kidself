@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "55323360382",
+    "firebase_url": "https://the-kidself.firebaseio.com",
+    "project_id": "the-kidself",
+    "storage_bucket": "the-kidself.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55323360382:android:fa28e4d585b67f38",
+        "android_client_info": {
+          "package_name": "com.example.thekidself"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55323360382-c2d66hvlt5ol78til6jvneuug04v5oba.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thekidself",
+            "certificate_hash": "d2e36669a4ca01b7cef7fcccbc827fd5439f5b1f"
+          }
+        },
+        {
+          "client_id": "55323360382-kedn5bco2t54tn1deu8ahemqbqvdv69b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeh1dnQjrjqHhtxFpal4Sh9K-OhOY_zHk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55323360382-kedn5bco2t54tn1deu8ahemqbqvdv69b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

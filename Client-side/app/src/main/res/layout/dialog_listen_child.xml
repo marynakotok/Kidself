@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/doneTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center_horizontal"
+        android:text="Do you want listen what is happenning arround the child?"
+        android:textColor="@color/colorBlack"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/start"
+            android:text="Start"
+            android:textColor="@color/colorWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:layout_margin="25dp"
+            android:padding="5dp"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:background="@drawable/button_parent"
+            android:fontFamily="@font/carlisle_regular" />
+
+        <Button
+            android:id="@+id/stop"
+            android:text="Stop"
+            android:textColor="@color/colorWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="1"
+            android:padding="5dp"
+            android:layout_margin="25dp"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:background="@drawable/button_parent"
+            android:fontFamily="@font/carlisle_regular" />
+
+    </LinearLayout>
+
+</LinearLayout>

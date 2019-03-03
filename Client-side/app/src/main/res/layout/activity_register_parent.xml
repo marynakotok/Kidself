@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/RegisterParentLayout"
+    tools:context=".activity.RegisterParentActivity">
+
+
+    <TextView
+        android:id="@+id/KidselfText"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/carlisle_regular"
+        android:text="@string/stringLogoText"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:textSize="50sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/ParentText"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/carlisle_regular"
+        android:text="@string/stringParent"
+        android:textAllCaps="false"
+        android:textColor="@color/colorParent"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible" />
+
+    <View style="@style/Divider"
+        android:layout_marginBottom="25dp"
+        android:layout_marginStart="40dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:hint="@string/stringName"
+        android:background="@drawable/field_parent"
+        android:inputType="text"
+        android:maxLines="1"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_marginBottom="10dp"
+        android:layout_width="250dp"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        android:layout_marginStart="70dp"
+        android:maxLength="10"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textColor="@color/colorBlack"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/date"
+        android:hint="@string/stringDB"
+        android:background="@drawable/field_parent"
+        android:layout_width="250dp"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_marginStart="70dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="45dp"
+        android:textColor="@color/colorBlack"
+        android:padding="10dp"/>
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/sex"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto_regular"
+            android:background="@drawable/spinner"
+            android:textColor="@color/colorBlack"
+            android:spinnerMode="dropdown" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:contentDescription="@string/stringSex"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/spinner_arrow" />
+
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/email"
+        android:hint="@string/stringEmail"
+        android:background="@drawable/field_parent"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:layout_marginBottom="10dp"
+        android:layout_width="250dp"
+        android:maxLength="30"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_marginStart="70dp"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textColor="@color/colorBlack"
+        android:padding="10dp"/>
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/password"
+        android:imeActionId="6"
+        android:background="@drawable/field_parent"
+        android:imeActionLabel="@string/stringPassword"
+        android:imeOptions="actionUnspecified"
+        android:inputType="textPassword"
+        android:fontFamily="@font/roboto_regular"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/stringPassword"
+        android:maxLength="10"
+        android:padding="10dp"
+        android:textColor="@color/colorBlack" />
+
+    <ImageView
+        android:id="@+id/EyeParent"
+        android:layout_width="wrap_content"
+        android:contentDescription="@string/stringPassword"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:src="@drawable/eye_view" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/LinkConditions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="40dp"
+        android:clickable="true"
+        android:fontFamily="@font/roboto_regular"
+        android:text="@string/stringConditions"
+        android:textColor="@color/colorBlack"
+        android:textSize="12sp"
+        android:gravity="start"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/sign_up_button"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="0dp"
+        android:textColor="@color/colorWhite"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:alpha="1"
+        android:textAllCaps="true"
+        android:textSize="40sp"
+        android:background="@drawable/button_parent"
+        android:fontFamily="@font/carlisle_regular"
+        android:text="@string/stringSignUp" />
+
+        <TextView
+            android:id="@+id/LinkForSignIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="100dp"
+            android:fontFamily="@font/roboto_regular"
+            android:gravity="end"
+            android:text="@string/stringHaveAccount"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp"
+            android:visibility="visible" />
+
+</LinearLayout>

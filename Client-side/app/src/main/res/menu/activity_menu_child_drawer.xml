@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:showIn="navigation_view">
+
+        <group android:checkableBehavior="single">
+            <item
+            android:id="@+id/nav_task"
+            android:icon="@drawable/ic_tasks"
+            android:title="@string/stringTaskArea" />
+            <item
+                android:id="@+id/nav_request"
+                android:icon="@drawable/ic_requests"
+                android:title="@string/stringRequestChild" />
+
+        </group>
+
+    <item android:title="@string/stringCommunication">
+        <menu>
+            <item
+                android:id="@+id/nav_family_chat"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/stringFamilyChat" />
+        </menu>
+    </item>
+
+    <item android:title="@string/stringAdmin">
+        <menu>
+            <item
+                android:id="@+id/nav_account"
+                android:icon="@drawable/ic_account"
+                android:title="@string/stringAccount" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help"
+                android:title="@string/stringHelp" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/submenu"
+        android:title="@string/stringDangerous">
+        <menu>
+            <item
+                android:id="@+id/nav_emergence_button"
+                android:icon="@drawable/ic_emergence_button"
+                android:title="@string/stringEmergencyButtonChild" />
+        </menu>
+    </item>
+
+</menu>
+
+

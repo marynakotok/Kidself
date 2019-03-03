@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ParentLoginLayout"
+    tools:context=".activity.login.LoginParentActivity">
+
+            <TextView
+                android:id="@+id/KidselfText"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/carlisle_regular"
+                android:text="@string/stringLogoText"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent"
+                android:textSize="50sp"
+                android:textStyle="bold|italic"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/ParentText"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="220dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/carlisle_regular"
+                android:text="@string/stringParent"
+                android:textAllCaps="false"
+                android:textColor="@color/colorParent"
+                android:textSize="30sp"
+                android:textStyle="bold|italic"
+                android:visibility="visible" />
+
+    <View style="@style/Divider"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="40dp" />
+
+
+
+                <EditText
+                    android:id="@+id/email"
+                    android:hint="@string/stringEmail"
+                    android:background="@drawable/field_parent"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:layout_width="250dp"
+                    android:layout_marginStart="70dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="55dp"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:textColor="@color/colorBlack"
+                    android:padding="10dp"/>
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/password"
+            android:imeActionId="6"
+            android:imeActionLabel="@string/stringPassword"
+            android:imeOptions="actionUnspecified"
+            android:singleLine="true"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="10dp"
+            android:textColor="@color/colorBlack"
+            android:hint="@string/stringPassword"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:background="@drawable/field_parent"
+            android:fontFamily="@font/roboto_regular"
+            android:inputType="textPassword" />
+
+        <ImageView
+            android:id="@+id/EyeParent"
+            android:layout_width="wrap_content"
+            android:contentDescription="@string/stringPassword"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:src="@drawable/eye_view" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/ForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="230dp"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="end"
+        android:text="@string/stringForgot"
+        android:textColor="@color/colorBlack"
+        android:textSize="13sp"
+        android:visibility="visible" />
+
+
+            <CheckBox android:id="@+id/keepMe"
+                android:layout_width="wrap_content"
+                android:fontFamily="@font/roboto_regular"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:text="@string/stringKeepSigned"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="110dp" />
+
+
+            <Button
+                android:id="@+id/sign_in_button"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_parent"
+                android:fontFamily="@font/carlisle_regular"
+                android:text="@string/stringSignIn"
+                android:textColor="@color/colorWhite"
+                android:alpha="1"
+                android:textAllCaps="true"
+                android:textSize="40sp"/>
+
+            <TextView
+                android:id="@+id/LinkForRegister"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="65dp"
+                android:fontFamily="@font/roboto_regular"
+                android:gravity="center_horizontal"
+                android:text="@string/stringRegister"
+                android:textColor="@color/colorBlack"
+                android:textSize="13sp"
+                android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/AnotherParent"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginStart="40dp"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center_horizontal"
+        android:text="@string/stringAnotherParent"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:visibility="visible" />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.thekidself.activity.SplashActivity"
+    tools:layout_editor_absoluteY="25dp"
+    android:background="@color/colorWhite">
+
+
+    <!--<ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="573dp"
+        android:layout_marginTop="28dp"
+        android:alpha="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_image" />-->
+
+    <TextView
+        android:id="@+id/logoText"
+        android:layout_width="300dp"
+        android:layout_marginStart="35dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:fontFamily="@font/carlisle_regular"
+        android:gravity="center"
+        android:text="@string/stringLogoText"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:textSize="60sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible" />
+
+</LinearLayout>

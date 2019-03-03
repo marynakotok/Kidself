@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu.parent.MapAreaFragment"
+    android:background="@color/colorWhite">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/fragment_map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="450dp" />
+
+        <ImageView
+            android:id="@+id/image_map_zone"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:contentDescription="@string/nav_header_desc"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="20dp"
+            android:textAlignment="center"
+            android:background="@drawable/ic_map_zone" />
+
+        <ImageView
+            android:id="@+id/image_map_listen"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="300dp"
+            android:layout_marginEnd="20dp"
+            android:contentDescription="@string/nav_header_desc"
+            android:textAlignment="center"
+            android:background="@drawable/ic_map_listen" />
+
+    </RelativeLayout>
+
+    <View style="@style/Divider"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp" />
+
+<HorizontalScrollView
+    android:id="@+id/hsv"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:measureAllChildren="false"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+            <ImageView
+                android:id="@+id/image_child1"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:visibility="invisible"
+                android:contentDescription="@string/nav_header_desc"
+                android:textAlignment="center"
+                android:background="@drawable/ic_add_family_member" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/text_child1"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:text="@string/stringDevice"
+                android:visibility="invisible"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/image_child2"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:visibility="invisible"
+                android:contentDescription="@string/nav_header_desc"
+                android:textAlignment="center"
+                android:background="@drawable/ic_add_family_member" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/stringDevice"
+                android:id="@+id/text_child2"
+                android:textAlignment="center"
+                android:visibility="invisible"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+            <ImageView
+                android:id="@+id/image_child3"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:contentDescription="@string/nav_header_desc"
+                android:visibility="invisible"
+                android:textAlignment="center"
+                android:background="@drawable/ic_add_family_member" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/stringDevice"
+                android:textColor="@color/colorBlack"
+                android:visibility="invisible"
+                android:textAlignment="center"
+                android:id="@+id/text_child3"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/image_child4"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:visibility="invisible"
+                android:contentDescription="@string/nav_header_desc"
+                android:textAlignment="center"
+                android:background="@drawable/ic_add_family_member" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/stringDevice"
+                android:textColor="@color/colorBlack"
+                android:id="@+id/text_child4"
+                android:textAlignment="center"
+                android:visibility="invisible"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/image_child5"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:contentDescription="@string/nav_header_desc"
+                android:visibility="invisible"
+                android:textAlignment="center"
+                android:background="@drawable/ic_add_family_member" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/stringDevice"
+                android:textColor="@color/colorBlack"
+                android:id="@+id/text_child5"
+                android:textAlignment="center"
+                android:visibility="invisible"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/image_child6"
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:visibility="invisible"
+                android:contentDescription="@string/nav_header_desc"
+                android:textAlignment="center"
+                android:background="@drawable/ic_add_family_member" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/stringDevice"
+                android:id="@+id/text_child6"
+                android:textAlignment="center"
+                android:visibility="invisible"
+                android:textColor="@color/colorBlack"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</HorizontalScrollView>
+
+</LinearLayout>
+
+</FrameLayout>

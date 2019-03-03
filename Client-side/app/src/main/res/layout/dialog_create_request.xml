@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/title"
+        android:background="@drawable/field_child"
+        android:inputType="text"
+        android:hint="@string/stringRequestTitle"
+        android:maxLines="1"
+        android:maxLength="20"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textColor="@color/colorBlack"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/reason"
+        android:background="@drawable/field_child"
+        android:inputType="textMultiLine"
+        android:hint="@string/stringRequestReason"
+        android:lines="5"
+        android:ems="10"
+        android:maxLength="100"
+        android:maxLines="10"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:gravity="top|start"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:padding="10dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/radioParents"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center_horizontal">
+
+            <RadioButton
+                android:id="@+id/radioParent1"
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stringParent1" />
+
+            <RadioButton
+                android:id="@+id/radioParent2"
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stringParent2" />
+
+        </RadioGroup>
+
+
+    <Button
+        android:id="@+id/CreateRequest"
+        android:text="@string/stringCreate"
+        android:textColor="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="1"
+        android:layout_margin="25dp"
+        android:textAllCaps="true"
+        android:textSize="40sp"
+        android:background="@drawable/button_child"
+        android:fontFamily="@font/carlisle_regular" />
+
+</LinearLayout>

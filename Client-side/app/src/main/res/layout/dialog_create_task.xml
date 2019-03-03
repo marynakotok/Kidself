@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/title"
+            android:background="@drawable/field_parent"
+            android:inputType="text"
+            android:hint="@string/stringTaskTitle"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:maxLength="20"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="@color/colorBlack"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/description"
+            android:background="@drawable/field_parent"
+            android:inputType="textMultiLine"
+            android:hint="@string/stringTaskDescription"
+            android:lines="5"
+            android:ems="5"
+            android:maxLength="100"
+            android:maxLines="5"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:gravity="top|start"
+            android:fontFamily="@font/roboto_regular"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:padding="10dp"/>
+
+        <View style="@style/Divider"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/startTime"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="@string/stringPickStartTime"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:background="@drawable/field_parent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/endTime"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="@string/stringPickEndTime"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:background="@drawable/field_parent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/Duration"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/colorLink"
+            android:textSize="12sp"
+            android:visibility="visible"
+            android:padding="10dp" />
+
+    <HorizontalScrollView
+        android:id="@+id/hsv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:measureAllChildren="false"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+    <RadioGroup android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:id="@+id/radioChildren"
+        android:layout_marginTop="5dp">
+
+            <RadioButton
+                android:id="@+id/radioChild1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stringKid1"
+                android:visibility="invisible"
+                android:checked="true"
+                android:layout_margin="5dp"/>
+
+            <RadioButton
+                android:id="@+id/radioChild2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:text="@string/stringKid2"
+                android:layout_margin="5dp"/>
+
+            <RadioButton
+                android:id="@+id/radioChild3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:text="@string/stringKid3"
+                android:layout_margin="5dp"/>
+
+
+                <RadioButton
+                    android:id="@+id/radioChild4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"
+                    android:text="@string/stringKid4"
+                    android:layout_margin="5dp"/>
+
+                <RadioButton
+                    android:id="@+id/radioChild5"
+                    android:layout_width="wrap_content"
+                    android:visibility="invisible"
+                    android:layout_height="wrap_content"
+                    android:text="@string/stringKid5"
+                    android:layout_margin="5dp"/>
+
+                <RadioButton
+                    android:id="@+id/radioChild6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"
+                    android:text="@string/stringKid6"
+                    android:layout_margin="5dp"/>
+
+        </RadioGroup>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+        <Button
+            android:id="@+id/CreateTask"
+            android:text="@string/stringCreate"
+            android:textColor="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="1"
+            android:layout_margin="10dp"
+            android:textAllCaps="true"
+            android:textSize="40sp"
+            android:background="@drawable/button_parent"
+            android:fontFamily="@font/carlisle_regular" />
+
+    </LinearLayout>

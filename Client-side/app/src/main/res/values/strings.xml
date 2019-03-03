@@ -1,0 +1,181 @@
+<resources>
+    <!--Main Strings android:background="@drawable/buttonChild"-->
+    <string name="app_name">TheKidSelf</string>
+    <string name="stringLogoText">The KidSelf</string>
+    <string name="stringParent">Parent</string>
+    <string name="stringChild">Child</string>
+    <string name="stringType">Type..</string>
+
+    <!--LogScreen Strings-->
+    <string name="stringKeepSigned">Keep me signed in</string>
+    <string name="stringForgot">Forgot password?</string>
+    <string name="stringSignIn">Sign in</string>
+    <string name="stringSignUp">Sign up</string>
+    <string name="stringRegister">Register for KidSelf As Parent</string>
+    <string name="stringHaveAccount">Already have an account?</string>
+    <string name="stringConditions">By clicking Sign up, you agree to our Terms&amp;Conditions</string>
+    <string name="stringName">Name</string>
+    <string name="stringDB">Date of Birth</string>
+    <string name="stringEmail">Email</string>
+    <string name="stringEnterParentDetails">Enter details of another parent</string>
+    <string name="stringEnterChildDetails">Enter details of your child</string>
+    <string name="StringKey">F21E2A7FB6C68037FAEAA55222E320F7</string>
+    <string name="stringPassword">Password</string>
+    <string name="stringSex">Sex</string>
+    <string name="stringIP">192.168.24.189</string>
+    <string name="stringClickRedButton">Click the red button to send Help Alert signal to all Parents in your Family</string>
+    <string name="stringSendAlert">Send Help Alert</string>
+    <string name="stringSOS">SOS</string>
+    <string name="stringPassNew">New Password</string>
+    <string name="stringRecCode">Received Code</string>
+    <string name="stringEnterCode">Enter the code received from parent</string>
+    <string name="stringEnterCodeAnotherParent">Enter the code received from main parent</string>
+    <string name="stringConnect">Connect</string>
+    <string name="stringAnotherParent">I am another parent and I have already got a code</string>
+    <string name="stringNoInternet">You need to have Mobile Data or WI-FI to access!</string>
+    <string name="stringNoInternetHeader">No Internet Connection!</string>
+    <string name="stringRetry">Retry</string>
+    <string name="stringCreateSecondParent">Create a parent</string>
+    <string name="stringCreateChild">Create a child</string>
+    <string name="stringSave">Save</string>
+    <string name="stringDoneTask">Have you already done this task?</string>
+    <string name="stringYes">Yes</string>
+    <string name="stringNo">No</string>
+    <string name="stringCancel">Cancel</string>
+    <string name="stringContinue">Continue</string>
+    <string name="stringChangePass">Change</string>
+
+    <string name="SuccessSignUp">You successfully created an account!</string>
+    <string name="LogIn">Now you may log in!</string>
+
+    <!--MenuScreens Strings Parent-->
+    <string name="stringAccount">My Account</string>
+    <string name="stringFamilyArea">My Family Area</string>
+    <string name="stringTaskArea">My Task Area</string>
+    <string name="stringRequestArea">My Request Area</string>
+    <string name="stringMapArea">My Map Area</string>
+
+    <string name="stringFamilyChat">My Family Chat</string>
+    <string name="stringSignOut">Sign out</string>
+    <string name="stringHelp">My Help</string>
+    <string name="stringCode">My Code</string>
+    <string name="stringCommunication">My Communication</string>
+    <string name="stringAdmin">My Account and Help</string>
+
+    <string name="stringRequestChild">My Requests</string>
+    <string name="stringTaskChild">My tasks</string>
+    <string name="stringEmergencyButtonChild">My Emergence Button</string>
+    <string name="stringDangerous">I AM IN DANGER!</string>
+    <string name="title_activity_login_child">The KidSelf - Sign in - Child</string>
+
+    <!-- Strings related to login -->
+    <string name="title_activity_login_parent">TheKidself - Sign in - Parent</string>
+    <string name="title_activity_menu_child">The KidSelf Child</string>
+    <string name="title_activity_menu_parent">The KidSelf Parent</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="stringRequestTitle">My Request Title</string>
+    <string name="stringRequestReason">My Request Reason</string>
+    <string name="stringTaskTitle">My Task Title</string>
+    <string name="stringTaskDescription">My Task Description</string>
+    <string name="stringCreate">Create</string>
+    <string name="stringPickStartTime">Pick Start Time</string>
+    <string name="stringPickEndTime">Pick End Time</string>
+    <string name="stringApprove">Approve</string>
+    <string name="stringDecline">Decline</string>
+    <string name="stringSubmit">Submit</string>
+    <string name="stringSetStatus">Do you accept or decline this request from your child?</string>
+
+    <string name="stringParents">Parents</string>
+    <string name="stringParent1">Parent 1</string>
+    <string name="stringParent2">Parent 2</string>
+    <string name="stringKid1">Kid 1</string>
+    <string name="stringKid2">Kid 2</string>
+    <string name="stringKid3">Kid 3</string>
+    <string name="stringKid4">Kid 4</string>
+    <string name="stringKid5">Kid 5</string>
+    <string name="stringKid6">Kid 6</string>
+
+
+    <string name="ConditionsText">
+        <div>
+            <b>1.1 License</b>
+            Eturi provides an online platform that allows parents to monitor and manage
+            their child’s mobile device usage. Certain features of our platform are
+            provided to you free-of-charge; these features are referred to as Free
+            Services (“Free Services” or “OurPact Free Services”). Other features require
+            payment before you can access them; these features are referred to as Premium
+            Services (“Premium Services” or “OurPact Premium Services”). Certain aspects of
+            the Premium Services may require the use of a desktop application provided by Eturi.
+            The use of this application and the additional functionality of the Premium Services
+            provided are governed by this Agreement, along with additional terms you must agree to
+            as a condition of installing and using the application. Subject to the terms of this Agreement,
+            Eturi grants you a non-transferable, non-exclusive, limited license to use the Service for your
+            personal use. Also subject to the terms of this Agreement, Eturi grants you a non-transferable,
+            non-exclusive license to use a copy of the App downloaded solely in connection with the Service
+            on a mobile device that you own or control (collectively the “License”).<br></br>
+        </div>
+        <div>
+            <b>1.2 Certain Restrictions</b>
+            The rights granted to you in this Agreement are subject to the following restrictions: (a)
+            you shall not license, sell, rent, lease, transfer, assign, distribute, host, or otherwise
+            commercially exploit the Service, Site or any App; (b) you shall not modify, translate, adapt,
+            merge, make derivative works of, disassemble, decompile, reverse compile or reverse engineer any
+            part of the Site or App, except to the extent the foregoing restrictions are expressly prohibited
+            by applicable law; (c) you shall not access the Service, Site or any App in order to build a
+            similar or competitive service or application; (d) except as expressly stated herein, no part
+            of the Site or any App may be copied, reproduced, distributed, republished, downloaded, displayed,
+            posted or transmitted in any form or by any means, or (e) you shall not remove or destroy any
+            copyright notices or other proprietary markings contained on or in any App. Any future release,
+            update, or other addition to functionality of the Service, Site or App shall be subject to the
+            terms of this Agreement, unless otherwise provided in terms associated with such addition. All
+            copyright and other proprietary notices on any Site content must be retained on any copies. This
+            App is for personal/consumer use only and not for commercial purposes. Not more than one (1)
+            mobile device may be paired with the Free Services of the App at any one time by a single user.
+            Not more than twenty (20) mobile devices may be paired with the Premium Services of the App at
+            any one time by a single user. No business or institution may access this service for commercial
+            use, even if they remain under the twenty (20) mobile device limit for the OurPact Premium Services.
+            By downloading and using the App and the Services, you represent that you are in compliance with the
+            restrictions set forth in these Terms.<br></br>
+        </div>
+        <div>
+            <b>1.3 Local Laws</b>
+            Eturi’s Service, Site, and any Apps are created for use in the United States and Canada.
+            You are solely responsible for compliance with all applicable laws beyond
+            privacy and data protection, including without limitation export and import
+            regulations.<br></br>
+        </div>
+       <div>
+           <b>1.4 Modification</b>
+            Eturi reserves the right, at any time, to modify, suspend, or discontinue the Service,
+            Site or App or any part thereof with or without notice. In the future we may offer
+            additional services, features, functionalities and in-app purchases. You agree that
+            Eturi will not be liable to you or to any third party for any modification, suspension,
+            or discontinuance of the Site or App or any part thereof.<br></br>
+    </div>
+</string>
+
+    <string name="stringGetting">Getting started</string>
+    <string name="stringTroubleShooting">Troubleshooting</string>
+    <string name="stringFAQ">FAQ</string>
+    <string name="stringIdeas">Do you have ideas that could improve The KidSelf</string>
+    <string name="stringSendIdeas">Send us your ideas</string>
+    <string name="stringGettingContext">All you need to know to get satrted with THe KidSelf right away.</string>
+    <string name="stringTroubleShootingContext">Let us know what you need help with and find the best person to talt to.</string>
+    <string name="stringFAQContext">Find answers to the frequently asked question and get to know The KidSelf better.</string>
+    <string name="stringIdeasContext">If so we would love to hear them, just click on the button below to start a short survey.</string>
+
+    <string name="stringDevice">My Device</string>
+    <string name="stringDeviceInfo">My Device Info</string>
+    <string name="stringCodeGeneral">My Code</string>
+    <string name="stringCodeGeneralInfo">My Code Info</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--<string name="gcm_defaultSenderId">gcm_defaultSenderId</string>-->
+
+</resources>
+

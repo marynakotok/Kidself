@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBase">#ff0000</color>
+    <color name="colorParent">#2d80fa</color>
+    <color name="colorFieldParent">#d4e5ff</color>
+    <color name="colorParentMedium">#6689e4</color>
+    <color name="colorChild">#00b688</color>
+    <color name="colorFieldChild">#d4fff4</color>
+    <color name="colorChildMedium">#0bb6b9</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlueMM">#77adff</color>
+    <color name="colorLink">#bcaa00</color>
+    <color name="colorApproved">#1bae10</color>
+    <color name="colorGray">#c9c9c9</color>
+
+    <color name="colorPrimary">#e90000</color>
+    <color name="colorAccent">#e90000</color>
+
+
+</resources>

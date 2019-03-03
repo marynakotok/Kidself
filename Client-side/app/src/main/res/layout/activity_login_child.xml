@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.login.LoginChildActivity">
+
+    <TextView
+        android:id="@+id/KidselfText"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="50dp"
+        android:fontFamily="@font/carlisle_regular"
+        android:text="@string/stringLogoText"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:textSize="50sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/ChildText"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="270dp"
+        android:fontFamily="@font/carlisle_regular"
+        android:text="@string/stringChild"
+        android:textAllCaps="false"
+        android:textColor="@color/colorChild"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible" />
+
+    <View style="@style/Divider"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="40dp" />
+
+    <TextView
+        android:id="@+id/EnterCode"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_margin="50dp"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center_horizontal"
+        android:text="@string/stringEnterCode"
+        android:textColor="@color/colorBlack"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:visibility="visible" />
+
+
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/Code"
+            android:imeActionId="6"
+            android:imeActionLabel="@string/stringPassword"
+            android:imeOptions="actionUnspecified"
+            android:singleLine="true"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:padding="10dp"
+            android:textColor="@color/colorBlack"
+            android:hint="@string/stringCode"
+            android:maxLength="5"
+            android:maxLines="1"
+            android:background="@drawable/field_child"
+            android:fontFamily="@font/roboto_regular"
+            android:inputType="textPassword" />
+
+        <ImageView
+            android:id="@+id/EyeChild"
+            android:layout_width="wrap_content"
+            android:contentDescription="@string/stringPassword"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:src="@drawable/eye_view" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/LinkForRegister"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="center_horizontal"
+        android:text="@string/stringRegister"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/ConnectButton"
+        android:text="@string/stringConnect"
+        android:textColor="@color/colorWhite"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:alpha="1"
+        android:textAllCaps="true"
+        android:textSize="40sp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_child"
+        android:fontFamily="@font/carlisle_regular" />
+
+
+</LinearLayout>

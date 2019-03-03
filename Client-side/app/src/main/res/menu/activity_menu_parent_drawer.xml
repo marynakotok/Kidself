@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_family_area"
+            android:icon="@drawable/ic_family"
+            android:title="@string/stringFamilyArea" />
+
+        <item
+            android:id="@+id/nav_map_area"
+            android:icon="@drawable/ic_map"
+            android:title="@string/stringMapArea" />
+        <item
+            android:id="@+id/nav_task_area"
+            android:icon="@drawable/ic_tasks"
+            android:title="@string/stringTaskArea" />
+        <item
+            android:id="@+id/nav_request_area"
+            android:icon="@drawable/ic_requests"
+            android:title="@string/stringRequestArea" />
+
+    </group>
+
+    <item android:title="@string/stringCommunication">
+        <menu>
+            <item
+                android:id="@+id/nav_family_chat"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/stringFamilyChat" />
+        </menu>
+    </item>
+
+    <item android:title="@string/stringAdmin">
+        <menu>
+            <item
+                android:id="@+id/nav_account"
+                android:icon="@drawable/ic_account"
+                android:title="@string/stringAccount"/>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help"
+                android:title="@string/stringHelp"/>
+        </menu>
+    </item>
+
+</menu>
